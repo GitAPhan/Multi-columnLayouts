@@ -1,16 +1,16 @@
 #yellow {
     background-color: yellow;
     width: 100%;
-    height: 70vw;
-    border: solid 2px black;
+    height: 100vh;
+    border: solid 3pt black;
 }
 
 #red {
     background-color: red;
     width: 20vw;
-    height: 60vw;
+    height: 90vh;
     position: absolute;
-    top: 5vw;
+    top: 5vh;
     left: 4vw;
     border: solid 2px black;
 }
@@ -18,9 +18,9 @@
 #green {
     background-color: green;
     width: 20vw;
-    height: 60vw;
+    height: 90vh;
     position: absolute;
-    top: 5vw;
+    top: 5vh;
     left: 28vw;
     border: solid 2px black;
 }
@@ -28,19 +28,30 @@
 #blue {
     background-color: blue;
     width: 20vw;
-    height: 60vw;
+    height: 90vh;
     position: absolute;
-    top: 5vw;
+    top: 5vh;
     left: 52vw;
     border: solid 2px black;
+}
+
+#blue p {
+    color: white;
+    font-size: 1.2rem;
 }
 
 #purple {
     background-color: blueviolet;
     width: 20vw;
-    height: 60vw;
+    height: 90vh;
     position: absolute;
-    top: 5vw;
+    top: 5vh;
     left: 76vw;
     border: solid 2px black;
+    font-size: 2rem;
+
+}
+
+#purple p {
+    font-size: .5em;
 }
